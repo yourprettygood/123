@@ -37,6 +37,33 @@ namespace ConsoleApp1
             }
             */
 
+            /*
+            int[] omas = new int[5];
+            Random rnd = new Random();
+            for (int i = 0; i < omas.Length; i++)
+            {
+                omas[i] = rnd.Next(-10,10);
+            }
+            for(int i = 0; i < omas.Length; i++)
+            {
+                Console.WriteLine($"omas[{i}] = {omas[i]}");
+            }
+
+
+
+
+            foreach (var x in omas)
+            {
+                Console.Write($"{x}\t");
+            }
+
+
+
+
+            Console.ReadLine();
+
+            */
+
         }
     }
 }
